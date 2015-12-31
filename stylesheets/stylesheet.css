@@ -745,6 +745,7 @@ dl dt {
 dl dd {
   font-style: normal;
   font-weight: 100;
+  margin-left: 20px;
   margin-bottom: 10px;
 }
 
