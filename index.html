@@ -25,7 +25,7 @@
 
     <div id="content-wrapper">
       <div class="inner clearfix">
-        <p class="tipe">为方便学习，本网页所有超链接地址点击均会在新窗口打开文档</p>
+        <p class="tipe">为方便浏览，本网页所有超链接地址点击均会在新窗口打开文档</p>
         <section id="main-content">
           <div class="row topicpage-table">
 
@@ -168,22 +168,35 @@
             <h3 id="初级课程">浏览器</h3>
             <dl>
 
-              <p class="subtitle">
-                做前端的需要使用浏览器进行页面效果展示，以及调试界面，后面还会有浏览器适配问题这个大坑。</p>
-
-              <p class="subtitle">
-                第一个推荐使用Google家的Chrome浏览器，而且他家的还有开发者中心提供一些开发相关的文档，但是由于大陆不能google，导致很多有用的东西都看不到，搜不到，不过chrome的调试功能还是很强大的，调试功能也比较多，所以推荐第一款使用这个浏览器进行界面的调试。
+              <p class="tipe">
+                做前端的需要使用浏览器进行页面效果展示，以及调试界面，后面还会有浏览器适配问题(主要还是内核不同)这个大坑。
               </p>
 
+              <p class="subtitle">
+                第一个推荐使用Google家的Chrome浏览器，使用内核为<code>Webkit</code>，而且他家的还有开发者中心提供一些开发相关的文档，但是由于大陆不能google，导致很多有用的东西都看不到，搜不到。<a href="src/lantern.pdf">点击这里，帮你翻墙</a>。不过chrome的调试功能还是很强大的，调试功能也比较多，所以推荐第一款使用这个浏览器进行界面的调试。
+              </p>
               <img src="src/chrome.png">
 
               <p class="subtitle">
-                然后就是FireFox了，火狐官方也提供了开发者中心，文档教程什么的也都有，但是火狐浏览器这个界面我是看不下去。不过好在它调试功能也比较齐全，开发者模式比软件做的漂亮多了。
+                然后就是FireFox了，使用内核为<code>Gecko</code>，火狐官方也提供了开发者中心，文档教程什么的也都有，但是火狐浏览器这个界面我是看不下去。不过好在它调试功能也比较齐全，开发者模式比软件做的漂亮多了。
               </p>
               <img src="src/firefox.png">
 
-              <p class="subtitle"></p>
-              <p class="subtitle"></p>
+              <p class="subtitle">
+                再有一个就算是有平台的限制了，Mac系统下自带的Safari浏览器，调试功能也比较齐全，由于Safari和Chrome使用的是一个内核<code>Webkit</code>，后期进行适配的话，可以不用考虑他。
+              </p>
+              <img src="src/safair.png">
+
+              <p class="subtitle">
+                由于IE也是以后适配的一大模块，使用内核为<code>IE内核</code>，所以做了界面还要在IE6、7、8、9、、、上进行调试，想想就觉得麻烦
+              </p>
+
+              <p class="subtitle">
+                360？！
+                百度浏览器？！
+                QQ浏览器？！
+              </p>
+
             </dl>
 
 
