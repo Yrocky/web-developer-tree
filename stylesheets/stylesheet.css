@@ -512,6 +512,7 @@ header h2 {
 
 aside#sidebar {
   float: right;
+  background-color: red;
   width: 200px;
   min-height: 504px;
   padding-left: 20px;
@@ -524,7 +525,6 @@ aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
 }
-
 #downloads {
   margin-bottom: 40px;
 }
